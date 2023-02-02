@@ -27,7 +27,7 @@ void PoseToPath::poseCallback(const geometry_msgs::PoseStampedConstPtr& msg){
     marker.color.a = 1.0;
     marker.scale.x = 0.1;
     marker.scale.y = 0.1;
-    marker.scale.z = 0.5;
+    marker.scale.z = 0.05;
     marker.type = visualization_msgs::Marker::ARROW;
     marker.action = visualization_msgs::Marker::ADD;
     marker.lifetime = ros::Duration();
